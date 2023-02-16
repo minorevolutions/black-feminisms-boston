@@ -3,10 +3,14 @@
     src: url(Roobert-Regular-web.otf);
   }
 
+header {
+margin-top: 5px;
+margin-bottom: 0px;
+}
 body {
     background-color: whitesmoke;
     font-family: Roobert-Regular;
-    background-image: url("https://freight.cargo.site/t/original/i/e8ba0898af1f12111fb72fab527f803dd8c946d4c8e2dbd102634073d27923e6/Untitled-design-10.png");
+    background-image: url("");
     opacity: 1;
     color: black;
 }
@@ -14,7 +18,7 @@ body {
 img {
 padding: 2px;
 max-width: 400;
-margin: auto;
+margin: 0;
 
 }
 
@@ -26,9 +30,9 @@ background-color:;
 form{
     width: 500px;
     padding: 5px;
-    margin: 0 auto;
-    display: auto;
+    margin: 10 auto;
     background-color: whitesmoke;
+    border: 1px solid black;
 }
 
 input, textarea, select, button {
@@ -37,13 +41,23 @@ input, textarea, select, button {
     padding: 10px 20px;
     border: 1px solid black;
     border-radius: 3px;
+    margin: 10 auto;
 }
 
 div {
 width: 500;
-text-align: left;
-margin: auto;
+text-align: center;
+margin: 10 auto;
 padding: 5px;
 border: 1px solid black;
 background-color: whitesmoke;
+}
+
+footer {
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    max-width: 500px;
 }
